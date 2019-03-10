@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>A Reusable Contact Form In HTML And CSS - reusable form</title>
+        <title>Spell Checker</title>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
         <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
         <link rel="stylesheet" href="../static/form.css" >
@@ -24,6 +24,17 @@
                             <div class="ease"></div>
                         </div>
                     </form>
+
+
+                    <form action = "/uploader" method = "POST"  class="montform" id="reused_form" enctype = "multipart/form-data">
+                        <input type = "file" name = "file" />
+                        <div class="submit">
+                            <button type="submit" class="button-blue">CLICK HERE TO UPLOAD</button>
+                            <div class="ease"></div>
+                        </div>
+                    </form>
+
+
                     <div id="error_message" style="width:100%; height:100%; display:none; ">
                         <h4>
                             Error
@@ -32,6 +43,14 @@
                     </div>
                     <div id="success_message" style="width:100%; height:100%; display:none; "> <h2>Success! Your Message was Sent Successfully.</h2> </div>
                 </div>
+                <!--<div class="upload-btn-wrapper">
+                            <button class="btn">Upload a file</button>
+                            <input type="file" name="file" />
+                        <div class="submit">
+                            <button type="submit" class="button-blue">CLICK HERE TO UPLOAD</button>
+                            <div class="ease"></div>
+                        </div>
+                    </div>-->
             </div>
         </div>
     </body>

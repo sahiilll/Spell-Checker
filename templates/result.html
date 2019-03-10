@@ -15,6 +15,12 @@
             <div id="form-main">
                 <div id="form-div">
                     <p>{{message}}</p>
+                    {% if message == "File uploaded Successsfuly" %}
+                    <div class="submit">
+                            <a href="/return-file/" target="_blank"><button class="button-blue">CLICK HERE TO DOWNLOAD</button>
+                            <div class="ease"></div>
+                        </div>
+                    {% endif %}
                     <div id="error_message" style="width:100%; height:100%; display:none; ">
                         <h4>
                             Error
