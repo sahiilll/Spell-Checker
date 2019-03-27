@@ -1,7 +1,7 @@
 
 
 /*General */
-html{    
+/*html{
   background:url('images/sun-2297961_1920.jpg') no-repeat;
   background-size: cover;
   height:100%;
@@ -9,7 +9,7 @@ html{
 body
 {
 	font-family: 'Montserrat', Arial, Helvetica, sans-serif;
-}
+}*/
 
 #feedback-page{
 	text-align:center;
@@ -18,7 +18,7 @@ body
 #form-main{
 	width:100%;
 	float:left;
-	padding-top:0px;
+	padding-top:300px;
 }
 
 #form-div {
@@ -27,11 +27,13 @@ body
 	padding-right:35px;
 	padding-top:35px;
 	padding-bottom:50px;
-	width: 450px;
+	width: 1000px;
+	height: 750px;
 	float: left;
-	left: 50%;
+	left: 35%;
 	position: absolute;
-  margin-top:30px;
+	top: 50px;
+	margin-top:35px;
 	margin-left: -260px;
   border-radius: 7px;
   
@@ -59,7 +61,6 @@ body
 	outline: none;
   padding: 13px 13px 13px 54px;
 }
-
 
 /* Icons ---------------------------------- */
 .montform  #name{
@@ -109,7 +110,6 @@ body
 .montform  input:focus, .montform  textarea:focus {
 	background-color:#e6e6e6;
 }
-
 .button-blue{
 	font-family: 'Montserrat', Arial, Helvetica, sans-serif;
 	float:left;
@@ -125,30 +125,48 @@ body
   margin-top:-4px;
   font-weight:700;
 }
-
 .button-blue:hover{
 	background-color: rgba(0,0,0,0);
 	color: #0493bd;
 }
-	
+.upload-btn-wrapper {
+  position: relative;
+  overflow: hidden;
+  display: inline-block;
+}
+
+.btn {
+  border: 2px solid gray;
+  color: gray;
+  background-color: white;
+  padding: 8px 20px;
+  border-radius: 8px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.upload-btn-wrapper input[type=file] {
+  font-size: 100px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  opacity: 0;
+}
 .montform  .submit:hover {
 	color: #3498db;
 }
-	
 .ease {
 	width: 0px;
 	height: 74px;
 	background-color: #fbfbfb;
 	transition: .3s ease;
 }
-
 .submit:hover .ease{
-  width:100%;
-  background-color:white;
+  width:150 px;
+  background-color:darkred;
 }
 
 /*Styles for small screens*/
-
 @media  only screen and (max-width: 580px) {
 	#form-div{
 		left: 3%;
