@@ -76,8 +76,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/templates/dashboard.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="239">
-              <caret line="15" column="14" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="14" />
+            <state relative-caret-position="324">
+              <caret line="20" column="24" lean-forward="true" selection-start-line="20" selection-start-column="24" selection-end-line="20" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -141,7 +141,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="953" />
     <option name="width" value="974" />
     <option name="height" value="1047" />
@@ -187,7 +187,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="settings.editor.selected.configurable" value="preferences.customizations" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -410,7 +410,7 @@
       <workItem from="1553630299948" duration="7904000" />
       <workItem from="1553653793544" duration="598000" />
       <workItem from="1553657092981" duration="4964000" />
-      <workItem from="1553706895434" duration="8212000" />
+      <workItem from="1553706895434" duration="8478000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1552234371137</created>
@@ -451,7 +451,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="130453000" />
+    <option name="totallyTimeSpent" value="130719000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -463,14 +463,14 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="953" y="0" width="974" height="1047" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" x="465" y="169" width="285" height="590" id="Project" order="0" sideWeight="0.89308995" visible="true" weight="0.12686567" />
+      <window_info content_ui="combo" x="465" y="169" width="285" height="590" id="Project" order="0" sideWeight="0.89308995" visible="true" weight="0.2603939" />
       <window_info id="Structure" order="1" sideWeight="0.10691004" side_tool="true" weight="0.12686567" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" sideWeight="0.4989059" weight="0.32822758" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.82835823" visible="true" weight="0.16901408" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.82835823" weight="0.16901408" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -479,7 +479,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.49946696" weight="0.03900325" />
       <window_info anchor="bottom" x="983" y="373" width="914" height="301" id="Database Changes" order="9" weight="0.3261105" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.1716418" side_tool="true" weight="0.16901408" />
-      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.4989059" weight="0.32822758" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" sideWeight="0.4989059" visible="true" weight="0.33041576" />
       <window_info anchor="bottom" id="Python Console" order="12" weight="0.3261105" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -773,8 +773,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/dashboard.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="239">
-          <caret line="15" column="14" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="14" />
+        <state relative-caret-position="324">
+          <caret line="20" column="24" lean-forward="true" selection-start-line="20" selection-start-column="24" selection-end-line="20" selection-end-column="24" />
         </state>
       </provider>
     </entry>
